@@ -124,7 +124,7 @@ html[data-appearance="dark"] .kj-hero-title bdi { color: var(--ink); background:
 .kj-stat:nth-child(2) { background: var(--kj-green); rotate: 2deg; }
 .kj-stat:nth-child(3) { background: var(--kj-blue); rotate: -1deg; }
 .kj-stat dd { margin: 0; font: 800 clamp(28px, 3.4vw, 40px)/1 var(--display); }
-.kj-stat dt { font: 800 11.5px/1.2 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.kj-stat dt { color: inherit; font: 800 11.5px/1.2 var(--mono); letter-spacing: .1em; text-transform: uppercase; }
 
 /* Board index */
 .forum-index { gap: 14px; }
