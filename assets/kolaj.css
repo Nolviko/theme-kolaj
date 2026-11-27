@@ -79,7 +79,7 @@ button:active, .btn:active { transform: translate(calc(var(--kj-x) * .6), 3px); 
 .av.c5 { background: var(--kj-purple); }
 
 /* Home hero */
-.kolaj-home > h1 { font-size: 26px; }
+.kolaj-home > h1, .kolaj-home > .head-row h1 { font-size: 26px; }
 .kj-hero {
     position: relative; overflow: hidden; isolation: isolate;
     display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 28px; align-items: center;
